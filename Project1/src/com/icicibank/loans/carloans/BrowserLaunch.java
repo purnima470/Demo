@@ -8,7 +8,8 @@ public class BrowserLaunch {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Purnima\\Downloads\\Compressed\\chromedriver_win32\\chromedriver.exe");
      ChromeDriver n=new ChromeDriver();
-     n.get("https://www.amazon.com");
+     n.get("https://www.snapdeals.com");
+     n.manage().window().maximize();
 	}
 
 }
